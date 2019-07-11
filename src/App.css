@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.App .App-Header {
+  min-height: 150px;
+}
+
+.App .App-Main {
+  background-color:grey;
+  flex-grow:1;
+}
+
+.App .App-Footer {
+  background-color: lightskyblue;
+  padding: 1rem;
+  text-align: center;
+}
