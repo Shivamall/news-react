@@ -26,7 +26,7 @@ class App extends Component {
     await this.fetchNews()
   }
 
-  changeQuery = (event) => {
+  Query = (event) => {
     this.setState({
       q: event.target.value
     })
@@ -97,7 +97,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-Header">
-          <Header firstTab={this.state.firstTab} changeTab={this.changeTab} submitSearch={this.submitSearch} changeQuery={this.changeQuery} />
+          <Header firstTab={this.state.firstTab} changeTab={this.changeTab} submitSearch={this.submitSearch} Query={this.Query} />
         </header>
         <main className="App-Main">
           <Main firstTab={this.state.firstTab} articles={this.state.articles} loading={this.state.loading} />
