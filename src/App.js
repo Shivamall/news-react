@@ -4,7 +4,7 @@ import Main from './pages/Main'
 import Footer from './pages/Footer'
 import axios from "axios";
 import './App.css';
-let api_key= ""
+let api_key= "944530716a7e44b2891a9fc74e182c56"
 
 class App extends Component {
   state = {
