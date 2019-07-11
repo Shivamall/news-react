@@ -59,7 +59,7 @@ const Header = (props) => {
              label = "Keyword or Phrase Search"
              placeholder="Keyword or Phrase Search"
              inputProps={{ 'aria-label': 'Keyword or Phrase Search' }}
-             onChange={props.changeQuery}
+             onChange={props.Query}
             />
 
 
