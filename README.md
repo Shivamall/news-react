@@ -1,3 +1,9 @@
+Open this link to get News API:  https://newsapi.org/
+Add that Api inside App.js file
+let api_key = "api_key"
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
